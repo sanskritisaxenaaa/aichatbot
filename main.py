@@ -20,7 +20,7 @@ import whisper
 import numpy as np
 import redis.asyncio as redis
 import requests
-from pydub import AudioSegment 
+from pydub import AudioSegment    
 from enum import Enum
 from passlib.context import CryptContext
 from dotenv import load_dotenv
