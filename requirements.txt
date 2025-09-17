@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+redis[asyncio]
+torch
+transformers
+openai-whisper
+numpy
+pydub
+passlib[bcrypt]
+python-dotenv
+python-jose[cryptography]
+cryptography
+requests
+google-generativeai
+PyJWT
