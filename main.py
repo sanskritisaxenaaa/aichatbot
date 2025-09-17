@@ -112,9 +112,10 @@ class Config:
             WHISPER_AUTO_DETECT_MODEL=os.getenv("WHISPER_AUTO_DETECT_MODEL", "true").lower() == "true"
         )
 
+
 config = Config.from_env()
  
-# Initialize Vector DB
+
 vector_db = VectorDBManager(
     use_gemini=config.USE_GEMINI_EMBEDDINGS,
     gemini_api_key=config.GEMINI_API_KEY,
